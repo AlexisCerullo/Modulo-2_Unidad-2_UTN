@@ -1,0 +1,35 @@
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.cajas {
+    display: flex;
+    width: 1600px;
+    height: 200px;
+    border: solid 3px black;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rojo, .azul, .verde {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.rojo {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.verde {
+    background-color: green;
+}
